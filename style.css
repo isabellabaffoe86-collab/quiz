@@ -1,1 +1,116 @@
 
+body {  
+    background-color: #656868; 
+    font-family: Arial, sans-serif;  
+    padding-top: 30px;  
+    padding-bottom: 30px;  
+}  
+  
+#page_wrapper {  
+    width: 660px;  
+    margin: 0 auto;  
+    background-color: #f6e27a;
+    border: 4px solid #F4F4EE;  
+    overflow: hidden;  
+}  
+  
+ 
+#page_header {  
+    height: 140px;  
+    background-image: url('../img/header.jpg');   
+    background-color: #333333;   
+    position: relative;    
+    box-sizing: border-box;
+}  
+  
+.header-text {  
+    position: absolute;  
+    top: 30px;  
+    left: 20px;  
+    color: #FCF8E3;  
+}  
+  
+.header-text h1 {  
+    font-size: 28px;  
+    letter-spacing: 5px;  
+}  
+  
+.header-text p {  
+    font-size: 14px;  
+    font-weight: bold;  
+}  
+  
+
+#left_side {  
+    width: 480px;  
+    float: left;  
+    padding: 20px 10px 20px 20px;  
+   
+}  
+  
+#left_side h2 {  
+    color: #A0410D;  
+    font-size: 16px;  
+    margin-bottom: 10px;  
+    margin-top: 10px;  
+}  
+  
+#left_side p {  
+    font-size: 13px;  
+    line-height: 1.5;  
+    color: #333333;  
+    margin-bottom: 15px;  
+}  
+   
+#right_side {  
+    width: 140px;  
+    float: right;  
+    background-color: #f2c94c;  
+    min-height: 600px;  
+    border-left: 1px dotted #A0410D;  
+}  
+  
+.sidebar-title {  
+    background-color: #595A38; 
+    color: white;  
+    padding: 5px 10px;  
+    font-size: 14px;  
+    margin: 10px;  
+}  
+  
+.sidebar-section {  
+    padding: 10px;  
+}  
+  
+.sidebar-section h4 {  
+    font-size: 13px;  
+    color: #3A3B22;  
+    margin-bottom: 10px;  
+}  
+  
+#right_side ul {  
+    list-style-type: square; 
+    padding-left: 20px;  
+}  
+  
+#right_side ul li {  
+    font-size: 11px;  
+    margin-bottom: 5px;  
+}  
+  
+#right_side a {  
+    color: blue;  
+    text-decoration: underline;  
+}  
+  
+  
+#page_footer {  
+    clear: both;  
+    height: 70px;  
+    background-image: url("../img/footer.jpg");     
+    color: #FCF8E3;  
+    text-align: center;  
+    line-height: 70px;  
+    font-size: 12px;  
+    font-weight: bold;  
+}  
