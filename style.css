@@ -17,7 +17,7 @@ body {
  
 #page_header {  
     height: 140px;  
-    background-image: url('../img/header.jpg');   
+    background-image: url('header.jpg');   
     background-color: #333333;   
     position: relative;    
     box-sizing: border-box;
@@ -107,7 +107,7 @@ body {
 #page_footer {  
     clear: both;  
     height: 70px;  
-    background-image: url("../img/footer.jpg");     
+    background-image: url("footer.jpg");     
     color: #FCF8E3;  
     text-align: center;  
     line-height: 70px;  
